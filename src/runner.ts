@@ -5,17 +5,13 @@ import * as path from 'path'
 import treeKill from 'tree-kill'
 
 export class Options {
-  @arg('[paths]', 'Paths to watch')
-  paths: string[] = []
+  @arg('[paths]', 'Paths to watch') paths: string[] = []
 
-  @arg('--', '[command with args]', 'Command to execute')
-  command: string[] = []
+  @arg('--', '[command with args]', 'Command to execute') command: string[] = []
 
-  @arg('-t', '--timeout', 'Timeout in seconds after which to kill command')
-  timeoutSeconds = 60 * 5
+  @arg('-t', '--timeout', 'Timeout in seconds after which to kill command') timeoutSeconds = 60 * 5
 
-  @arg('--kill-signal', 'Kill signal')
-  killSignal: NodeJS.Signals = 'SIGTERM'
+  @arg('--kill-signal', 'Kill signal') killSignal: NodeJS.Signals = 'SIGTERM'
 
   constructor(options: Partial<Options> = {}) {
     Object.assign(this, options)
