@@ -1,5 +1,5 @@
 <h1>
-watch-and-build <a href="https://npmjs.org/package/watch-and-build"><img src="https://img.shields.io/badge/npm-v0.0.1-F00.svg?colorA=000"/></a> <a href="src"><img src="https://img.shields.io/badge/loc-86-FFF.svg?colorA=000"/></a> <a href="https://cdn.jsdelivr.net/npm/watch-and-build@0.0.1/dist/watch-and-build.min.js"><img src="https://img.shields.io/badge/brotli-7K-333.svg?colorA=000"/></a> <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-F0B.svg?colorA=000"/></a>
+@stagas/watch-and-build <a href="https://npmjs.org/package/@stagas/watch-and-build"><img src="https://img.shields.io/badge/npm-v0.0.1-F00.svg?colorA=000"/></a> <a href="src"><img src="https://img.shields.io/badge/loc-86-FFF.svg?colorA=000"/></a> <a href="https://cdn.jsdelivr.net/npm/@stagas/watch-and-build@0.0.1/dist/@stagas/watch-and-build.min.js"><img src="https://img.shields.io/badge/brotli-7K-333.svg?colorA=000"/></a> <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-F0B.svg?colorA=000"/></a>
 </h1>
 
 <p></p>
@@ -8,11 +8,11 @@ watch a list of directories and run build commands when files change
 
 <h4>
 <table><tr><td title="Triple click to select and copy paste">
-<code>npm i watch-and-build -g</code>
+<code>npm i @stagas/watch-and-build -g</code>
 </td><td title="Triple click to select and copy paste">
-<code>pnpm add watch-and-build -g</code>
+<code>pnpm add @stagas/watch-and-build -g</code>
 </td><td title="Triple click to select and copy paste">
-<code>yarn global add watch-and-build</code>
+<code>yarn global add @stagas/watch-and-build</code>
 </td></tr></table>
 </h4>
 
