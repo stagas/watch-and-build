@@ -1,5 +1,5 @@
 {
-  "name": "watch-and-build",
+  "name": "@stagas/watch-and-build",
   "author": "stagas",
   "short": "stagas/watch-and-build",
   "description": "watch a list of directories and run build commands when files change",
